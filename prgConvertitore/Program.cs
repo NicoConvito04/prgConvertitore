@@ -18,10 +18,10 @@ namespace prgConvertitore
             while (numero != 0)
             {
                 resto = numero % divisore;
-                numero = numero / 2;
+                numero = numero / 8;
                 numeroConvertito = Convert.ToString(resto) + numeroConvertito;
             }
-            Console.WriteLine($"{numeroConvertito}");
+            Console.WriteLine($"Il numero convertito è {numeroConvertito}");
             Console.ReadLine();
         }
     }
